@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_lights" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lens" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="50%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" rx="16" fill="url(#bg_lights)"/>
+  <rect x="20" y="20" width="560" height="410" rx="12" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+
+  <g transform="translate(280, 190)">
+    <!-- Light Beam Effect -->
+    <polygon points="40,-35 220,-85 220,60 40,35" fill="url(#beam)"/>
+
+    <!-- Headlight Housing -->
+    <path d="M-130,-45 C-70,-75 20,-60 65,-25 C85,-5 85,25 65,45 C20,70 -70,60 -130,40 Z" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <!-- Clear Polycarbonate Lens Outline -->
+    <path d="M-115,-35 C-60,-65 20,-50 55,-20 C70,-5 70,20 55,35 C20,58 -60,50 -115,30 Z" fill="#f0f9ff" opacity="0.35" stroke="#38bdf8" stroke-width="2"/>
+
+    <!-- Dual Projector Lenses -->
+    <circle cx="20" cy="0" r="28" fill="url(#lens)" stroke="#0369a1" stroke-width="2.5"/>
+    <circle cx="20" cy="0" r="14" fill="#ffffff" opacity="0.8"/>
+    <!-- Halo Ring (Angel Eye DRL) -->
+    <circle cx="20" cy="0" r="33" fill="none" stroke="#38bdf8" stroke-width="3" opacity="0.9"/>
+
+    <!-- Secondary Projector / Turn Signal -->
+    <circle cx="-45" cy="0" r="22" fill="#0f172a" stroke="#ca8a04" stroke-width="2"/>
+    <circle cx="-45" cy="0" r="14" fill="#eab308"/>
+
+    <!-- LED Strip Line (DRL Eyebrow) -->
+    <path d="M-100,-25 Q-30,-45 45,-25" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="300" y="365" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0f172a" text-anchor="middle">Lighting &amp; Headlamp Assemblies</text>
+  <text x="300" y="388" font-family="Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#64748b" text-anchor="middle">LED HEADLIGHTS &#8226; TAIL LIGHTS &#8226; FOG LAMPS &#8226; BULBS</text>
+</svg>
